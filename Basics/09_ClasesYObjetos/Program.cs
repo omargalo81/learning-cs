@@ -1,6 +1,6 @@
 ﻿namespace _09_ClasesYObjetos
 {
-    internal class Program
+    internal static class Program
     {
         static void Main(string[] args)
         {
@@ -22,8 +22,8 @@
 
     class Venta
     {
-        int total;
-        DateTime fecha;
+        readonly int total;
+        readonly DateTime fecha;
 
         //Constructor
 
